@@ -36,7 +36,7 @@ mi_proyecto_domotica/
 ### Descripción de los módulos
 
 | Archivo | Descripción |
-|------------------------------------------------------------------|
+|---|---|
 | `base.py` | Define la clase abstracta `Dispositivo`. |
 | `dispositivos.py` | Implementa sensores, bombillas y cerraduras inteligentes. |
 | `hub.py` | Gestiona el registro, listado, operaciones y estadísticas. |
