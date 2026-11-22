@@ -38,7 +38,7 @@ class Dispositivo(ABC):
         self._fabricante = nuevo_fabricante.strip()
 
     def __str__(self):
-        return f"Dispositivo: {self._nombre} ID: {self._id} | Fabricante: {self._fabricante}"
+        return f"[{self.tipo()}] {self._nombre} (id={self._id}, fabricante={self._fabricante})"
 
     @abstractmethod
     def tipo(self):
